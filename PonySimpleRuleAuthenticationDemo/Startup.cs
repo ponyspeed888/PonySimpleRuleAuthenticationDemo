@@ -33,7 +33,7 @@ namespace PonySimpleRuleAuthenticationDemo
             services.AddControllersWithViews();
 
 
-            AuthTypeEnum AuthDemotype = AuthTypeEnum.JWTWITHRULE_WITHCONFIG;
+            AuthTypeEnum AuthDemotype = AuthTypeEnum.JWTWITHUSER;
 
 
             switch (AuthDemotype)

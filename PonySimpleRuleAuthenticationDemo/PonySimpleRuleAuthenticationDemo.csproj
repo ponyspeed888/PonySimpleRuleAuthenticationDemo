@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.9" />
-    <PackageReference Include="PonySimpleRuleAuthentication" Version="0.0.1-alpha" />
+    <PackageReference Include="PonySimpleRuleAuthentication" Version="1.0.0-alpha1" />
   </ItemGroup>
 
 </Project>
