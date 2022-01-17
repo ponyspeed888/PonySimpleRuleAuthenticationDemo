@@ -1,4 +1,6 @@
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fponyspeed888%2FPonySimpleRuleAuthenticationDemo&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 This project demonstrate asp.net core app that use my PonySimpleRuleAuthentication nuget package
 
 PonySimpleRuleAuthentication is a simplified asp.net core Token or JWT authentication that does not authenticate user by lookup from a user database.  Instead the users is either lookup from a appsettings.json file, or a function that convert a uid/pwd pair into a role.  For example, the rule could be that anyone enter the current date in MMdd format is consider valid user.  The use case is for small hobby website that people can contact you to get uid/pwd or to get to know the rule.  Please note PonySimpleRuleAuthentication is designed with ease of use in mind, not security, and is to be used by website that is of very low value like personal blog, it's security level is low. Don't use this package anywhere security is of concern.
